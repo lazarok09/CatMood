@@ -1,0 +1,23 @@
+.about h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+#about p {
+  text-align: justify;
+  color: rgb(128, 116, 136);
+}
+/* customizing FontAwesome icons */
+.fas,
+.fab {
+  padding: 22px;
+  font-size: 25px;
+}
+article {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about h1 {
+  color: black;
+}

@@ -1,0 +1,32 @@
+.header {
+  background: linear-gradient(#d657f0, hsl(11, 72%, 71%));
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: wrap;
+  padding: 20px;
+}
+.logo {
+  height: 100px;
+  width: 100px;
+}
+.menu {
+  display: flex;
+}
+.menu li {
+  margin-left: 10px;
+}
+.menu li a {
+  display: block;
+  padding: 10px;
+  background: salmon;
+  border-radius: 0px 10px 0px 8px;
+  transition: all 0.5s ease-out;
+}
+.menu li a:hover {
+  padding: 11px;
+  color: white;
+  background: linear-gradient(#f1765a, hsl(323, 70%, 60%));
+  font-size: 1.2rem;
+  border-radius: 10px 0px 8px 0px;
+}
