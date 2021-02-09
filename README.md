@@ -1,4 +1,4 @@
-<h1 align=center> CatProfile </h1>
+<h1 align=center> CatMood </h1>
 
 <span align=center>
   
