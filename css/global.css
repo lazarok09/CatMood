@@ -6,7 +6,30 @@
   list-style-type: none;
   font-family: "Roboto", sans-serif;
 }
+button {
+  background: none;
+  border: none;
+}
 a {
   text-decoration: none;
   color: white;
+}
+img {
+  cursor: pointer;
+}
+img:hover {
+  opacity: 0.9;
+  border-radius: 10px 10px 10px 10px;
+  padding: 1px;
+}
+.icone {
+  position: relative;
+  top: -110px;
+}
+.fas {
+  color: rgb(0, 225, 255);
+  border-radius: 5px;
+}
+.dif {
+  top: -135px;
 }
